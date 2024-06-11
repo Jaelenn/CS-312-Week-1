@@ -1,0 +1,73 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+/* background color of the website */
+body {
+  background-color: #393E46;
+}
+/*sizing of the website and styling */
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+/*this creates the width of all image to 80% of there container*/
+img {
+  width: 80%;
+}
+/*this alows for the creation of the footer message*/
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
+/*this helps center the dice and make sure the dice are alligned horzontial*/
+.dice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* This creates the button for the user to intereact with the game*/
+button {
+  padding: 20px 40px; 
+  font-size: 3rem; 
+  font-family: 'Indie Flower', cursive; 
+  background-color: #4ECCA3; 
+  color: #272331; 
+  border: none; 
+  border-radius: 10px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease; 
+}
+/* creates a shadow effect for the button */
+button:hover {
+  background-color: #32a896; 
+}
+
+/* This creates style for the footer message with my name on it*/
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  font-size: 5rem; 
+  padding: 20px; 
+}
